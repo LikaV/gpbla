@@ -1,3 +1,7 @@
+#include "Aim.h"
+#include "PVO.h"
+#include "ChangeHeight.h"
+
 class UAV
 {
 	float x, y, z;
