@@ -1,6 +1,7 @@
-class ChangeHeight: public GeoObject //это довольно странно, но нужно, чтобы было удобно хранить точки, которые облетает бла
+class ChangeHeight: public Object //это довольно странно, но нужно, чтобы было удобно хранить точки, которые облетает бла
 {
 	float height; //на какую высоту поднимаемся/снижаемся
 public:
-	ChangeHeight(float nx, float ny, float nrh); // сначала вызвать конструктор родительского! с радиусом 0 (?)
+	ChangeHeight(float nx, float ny, float nrh); // сначала вызвать конструктор родительского! 
+	bool upper(float height); //вернет true, если мы поднимаемся, полагаю, что потребуется для рассчетов сплайна.
 };

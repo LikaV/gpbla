@@ -1,4 +1,4 @@
-class PVO: public GeoObject
+class PVO: public GeoObject //переопределить isPVO как true
 {
 	float p; //вероятность быть сбитым в этой области
 public:
