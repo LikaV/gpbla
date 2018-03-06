@@ -17,4 +17,6 @@ public:
 	void addAim(Aim newAim);
 	void iteration(dt); //моделирование полета
 	void deleteAim(Aim aim); //когда цель кто-то отснял
+	float getX();
+	float getY();
 };
