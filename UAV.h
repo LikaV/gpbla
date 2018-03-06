@@ -19,4 +19,6 @@ public:
 	void deleteAim(Aim aim); //когда цель кто-то отснял
 	float getX();
 	float getY();
+	void roat(vector<Aim> aims); //метод ветвей и границ
+	void elaborateRoat(vector<GeoObject> objects); //уточнение траекторий
 };
